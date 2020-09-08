@@ -1,0 +1,30 @@
+.links{
+
+    padding-top: 3.5em;
+    display:grid;
+    
+    grid-template-areas: "icon1 handle1" "icon2 handle2" "icon3 handle3";
+
+    justify-items: right;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    grid-row-gap: .5em;
+    grid-column-gap: 1.5em;
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+    
+}
+
+a:visited{
+    color: black;
+}
+
+body {
+    font-family: Jost;
+    margin: 0;
+}

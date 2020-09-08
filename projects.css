@@ -1,0 +1,21 @@
+
+body {
+    font-family: Jost;
+    margin: 0;
+}
+
+.carousel {
+    width: 720px;
+    margin: 0 auto;
+    padding-top: 2em;
+    
+}
+
+.carousel img {
+    width: 720px;
+    height: 480px;
+}
+
+.carousel p {
+    text-align: center;
+}

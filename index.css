@@ -1,0 +1,88 @@
+.welcome {
+    text-align: center;
+    
+}
+
+
+
+.welcome h1, h3{
+    text-transform: capitalize;
+}
+
+.index-info{
+    padding-top: 3rem;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.index-container{
+    /* We first create a flex layout context */
+    display: grid;
+    grid-template-areas: "d1 picture" 
+                         "d2 picture"
+                         "d3 picture";
+
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.index-item{
+    width: 15rem;
+    text-align: center;
+    font-size: large;
+    
+}
+
+.index-picture{
+    grid-area: picture;
+    
+}
+
+.index-picture img {
+    height: 25em;
+}
+
+
+body {
+    font-family: Jost;
+    margin: 0;
+}
+
+.navbox {
+    background-color: lightgrey;
+    width: 8rem;
+    height: 8rem;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbox:hover {
+    background-color: grey;
+    
+}
+
+.navboxes {
+    display: grid;
+    width: 50%;
+    margin: 0 auto;
+
+    grid-template-columns: repeat(3, 12rem);
+
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .index-picture {visibility: hidden;}
+}
