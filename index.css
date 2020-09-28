@@ -5,7 +5,7 @@
 
 
 
-.welcome h1, h3{
+.welcome > h1, h3{
     text-transform: capitalize;
 }
 
@@ -20,7 +20,8 @@
     display: grid;
     grid-template-areas: "d1 picture" 
                          "d2 picture"
-                         "d3 picture";
+                         "d3 picture"
+                         "d4 picture";
 
     justify-items: center;
     align-content: center;
@@ -28,10 +29,17 @@
 }
 
 .index-item{
-    width: 15rem;
+    width: 18rem;
     text-align: center;
     font-size: large;
     
+}
+
+.career-goals {
+    padding-top: 4em;
+    text-transform: none;
+    text-align: center;
+    font-family: Jost;
 }
 
 .index-picture{
