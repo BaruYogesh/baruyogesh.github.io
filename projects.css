@@ -1,21 +1,39 @@
 
 body {
-    font-family: Jost;
-    margin: 0;
+  font-family: Jost;
+  margin: 0;
 }
 
 .carousel {
-    width: 720px;
-    margin: 0 auto;
-    padding-top: 2em;
-    
+  width: 720px;
+  margin: 0 auto;
+  padding-top: 2em;
+  
 }
 
 .carousel img {
-    width: 720px;
-    height: 480px;
+  width: 720px;
+  height: 480px;
 }
 
 .carousel p {
-    text-align: center;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+
+}
+
+.buttons > button {
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-family: Jost;
+  background-color: dodgerblue;
+  border: none;
+}
+
+.buttons > button:hover {
+  background-color: darkblue;
 }

@@ -50,17 +50,23 @@ body {
 }
 
 .navbox {
+    display: table;
     background-color: lightgrey;
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
     display: inline-block;
     text-align: center;
+    text-decoration: none;
+    align-self: stretch;
     cursor: pointer;
 }
 
 span {
     display: inline-block;
     vertical-align: middle;
+    color: black;
+    line-height: 10rem;
+
 }
 
 .navbox:hover {
@@ -70,15 +76,12 @@ span {
 
 .navboxes {
     display: grid;
-    width: 50%;
-    margin: 0 auto;
-
     grid-template-columns: repeat(3, 12rem);
 
     justify-items: center;
     justify-content: center;
-    align-content: center;
     align-items: center;
+    align-content: center;
 }
 
 
