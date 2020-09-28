@@ -1,3 +1,5 @@
 # portfolio-site
 
-my site
+https://baruyogesh.com
+
+"professional" site.
