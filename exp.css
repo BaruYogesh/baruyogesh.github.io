@@ -1,0 +1,14 @@
+.jobs {
+  padding-top: 4em;
+  padding-left: 12em;
+  padding-right: 12em;
+}
+
+.job {
+  padding-top: .5em;
+
+}
+
+.job > h1 {
+  text-decoration: underline;
+}
