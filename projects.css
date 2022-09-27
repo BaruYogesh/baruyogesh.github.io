@@ -37,3 +37,8 @@ body {
 .buttons > button:hover {
   background-color: darkblue;
 }
+
+#smart-shower {
+  display: grid;
+  justify-items: center;
+}
